@@ -7,9 +7,10 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME                => 'MetasploitExpress::Parser',
     AUTHOR              => 'Joshua D. Abraham < jabra@spl0it.org >',
-    VERSION             => '0.01',
+    VERSION             => '0.02',
     PREREQ_PM           => {
                 'Test::More'        => '0',
+                'Test::Class'       => '0',
                 'Object::InsideOut' => '0',
                 'XML::LibXML'	    => '0',
     },
